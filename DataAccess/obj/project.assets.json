@@ -702,6 +702,16 @@
             "rid": "win"
           }
         }
+      },
+      "BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessLayer.dll": {}
+        }
       }
     }
   },
@@ -2570,10 +2580,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../BusinessLayer/BusinessLayer.csproj",
+      "msbuildProject": "../BusinessLayer/BusinessLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "BusinessLayer >= 1.0.0",
       "Microsoft.Data.SqlClient >= 4.1.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0"
@@ -2605,7 +2621,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -48,3 +48,5 @@ C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\obj\Debug\net5.0-windows\Asm1.pdb
 C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\obj\Debug\net5.0-windows\Asm1.genruntimeconfig.cache
 C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\obj\Debug\net5.0-windows\ref\Asm1.dll
 C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\bin\Debug\net5.0-windows\appsettings.json
+C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\bin\Debug\net5.0-windows\BusinessLayer.dll
+C:\Users\acern\source\repos\asm\ASM1\ASM1\Asm1\bin\Debug\net5.0-windows\BusinessLayer.pdb

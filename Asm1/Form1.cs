@@ -8,7 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using DataAccess.Repository;
+using BusinessLayer.Models;
 namespace Asm1
 {
     public partial class Form1 : Form
@@ -20,8 +21,7 @@ namespace Asm1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MemberDAO dao = new MemberDAO();
-            label1.Text = dao.GetConnectionString();
+            
         }
     }
 }
