@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2Zf0g4jJVidzO7bKCBJBQgWGecpOoCtz19Yra6uRjhPAPzMykhNlNxyHCltvneTXMVxPp2vGqWpPwUdYmHayg==",
+  "dgSpecHash": "S/ZvQMv4CFZ+DRUQJ5uWeg5qWTYSBVannFasvZgZIyxzM/rsDy+FJFI2qT3D+ExNklN4xxZErK6/hi7pHp4H4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acern\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\acern\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

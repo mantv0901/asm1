@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj": {}
+    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",

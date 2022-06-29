@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2BrBVqYBMILM1EMx08uzzbaGmk42Bq1bI3sGKYrEoaBB5GSoI2fciPOojwqnZQ5RMPE3XyHwpfonsoZczjNcgg==",
+  "dgSpecHash": "aHUL9mepGnLzRxYR+Dxz1zfqZZ1kZi9KY/Kxg9ivNnpPivaaHiDVub2DnNjIakIQ0lk8lsS85bWJ6RAksZYbPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

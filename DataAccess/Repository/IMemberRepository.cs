@@ -17,6 +17,7 @@ namespace DataAccess.Repository
         List<string> GetCities();
         List<string> GetCountries();
         List<Member> GetMembersByEmail(String Email);
+        List<Member> GetAllMember();
         List<Member> GetMembersByCity(String City);
         List<Member> GetMembersByCountry(String Country);
     }

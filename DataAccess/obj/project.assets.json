@@ -2601,11 +2601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2622,8 +2622,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj"
             }
           }
         }

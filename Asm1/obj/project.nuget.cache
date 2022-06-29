@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vSh9NxsYxldf6uigCGfQQ0pR0ivjpkr0dUc8e+o4dhvxH9gUWQuCJZQ/pHcLMvmDFEJVJledrxOm1Vjc9xhVA==",
+  "dgSpecHash": "1yxSFYucfv62/6PtqDILoaukNK2Tt1/trEPyduyE6hoSeRX/9tSQOtTib8OPIDnWNPrQLonUUT+6OA7H7UT+ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\Asm1\\Asm1.csproj",
+  "projectFilePath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acern\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\acern\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

@@ -299,6 +299,42 @@ namespace DataAccess.DAO
             }
             return check;
         }
+        public List<Member> GetAllMember()
+        {
+            List<Member> members = new List<Member>();
+            String sql = "select * from Member";
+            using (SqlConnection connection = new SqlConnection(GetConnectionString()))
+            {
+                SqlCommand command = new SqlCommand(sql, connection);
+
+                try
+                {
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        Member member = new Member()
+                        {
+                            MemberId = reader.GetInt32(0),
+                            Email = reader.GetString(1),
+                            Password = reader.GetString(5),
+                            CompanyName = reader.GetString(2),
+                            City = reader.GetString(3),
+                            Country = reader.GetString(4)
+                        };
+                        members.Add(member);
+                    }
+                    reader.Close();
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+
+            }
+            return members;
+        }
         public bool Delete(int id)
         {
             String sql = "UPDATE Member SET [Status] =0" +

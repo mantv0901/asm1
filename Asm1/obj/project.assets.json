@@ -2619,11 +2619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\Asm1\\Asm1.csproj",
+      "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj",
       "projectName": "Asm1",
-      "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\Asm1\\Asm1.csproj",
+      "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj",
       "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\Asm1\\obj\\",
+      "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2640,8 +2640,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\ASM1\\ASM1\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj"
             }
           }
         }

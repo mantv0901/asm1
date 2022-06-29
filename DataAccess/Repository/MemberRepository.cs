@@ -24,6 +24,11 @@ namespace DataAccess.Repository
             return MemberDAO.Instance.Delete(id);
         }
 
+        public List<Member> GetAllMember()
+        {
+            return MemberDAO.Instance.GetAllMember();
+        }
+
         public List<string> GetCities()
         {
             return MemberDAO.Instance.GetCities();
