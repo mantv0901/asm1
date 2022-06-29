@@ -62,5 +62,16 @@ namespace Asm1
             }
             Task4_Load(sender,e);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new frmCreateForm()
+            {
+                MemberRepository = fun
+            };
+            form.ShowDialog();
+            Task4_Load(sender, e);
+
+        }
     }
 }

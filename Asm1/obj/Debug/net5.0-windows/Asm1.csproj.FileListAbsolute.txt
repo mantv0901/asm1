@@ -103,3 +103,4 @@ C:\Users\acern\source\repos\asm\main_asm1\asm1\Asm1\bin\Debug\net5.0-windows\Bus
 C:\Users\acern\source\repos\asm\main_asm1\asm1\Asm1\obj\Debug\net5.0-windows\Asm1.csproj.CopyComplete
 C:\Users\acern\source\repos\asm\main_asm1\asm1\Asm1\obj\Debug\net5.0-windows\Asm1.genruntimeconfig.cache
 C:\Users\acern\source\repos\asm\main_asm1\asm1\Asm1\obj\Debug\net5.0-windows\ref\Asm1.dll
+C:\Users\acern\source\repos\asm\main_asm1\asm1\Asm1\obj\Debug\net5.0-windows\Asm1.frmCreateForm.resources
