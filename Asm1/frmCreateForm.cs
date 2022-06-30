@@ -21,7 +21,7 @@ namespace Asm1
         }
 
         public IMemberRepository MemberRepository { get; set; }
-        public Member member { get; set; }
+        public Member Member { get; set; }
         private void btSave_Click(object sender, EventArgs e)
         {
                 var member = new Member

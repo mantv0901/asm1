@@ -17,7 +17,7 @@ namespace Asm1
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Task4());
+            Application.Run(new frmLogin());
         }
     }
 }
