@@ -6,8 +6,11 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\acern\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\acern\\.nuget\\packages"
+      "C:\\Users\\Cuong\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Cuong\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
