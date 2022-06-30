@@ -28,7 +28,7 @@ namespace Asm1
         {
             IConfiguration config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", true, true).Build();
             Email = config.GetSection("AdminAccount")["Email"];
-            Password = config.GetSection("AdminAccount")["Email"];
+            Password = config.GetSection("AdminAccount")["Password"];
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace Asm1
             String password = txtPassword.Text;
             if (email == Email && password == Password)
             {
-                Form form = new frmAdmin();
+                Form form = new Task4();
                 this.Hide();
                 form.ShowDialog();
                 this.Close();

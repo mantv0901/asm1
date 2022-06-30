@@ -167,6 +167,7 @@ namespace Asm1
             this.btnChange.TabIndex = 30;
             this.btnChange.Text = "Change Info";
             this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // btnLogout
             // 

@@ -22,7 +22,7 @@ namespace Asm1
             InitializeComponent();
         }
 
-        private void frmUser_Load(object sender, EventArgs e)
+        private void load()
         {
             CurrentMember = MemberRepository.GetMemberById(CurrentMember.MemberId);
             txtEmail.Text = CurrentMember.Email;
@@ -30,6 +30,11 @@ namespace Asm1
             txtCity.Text = CurrentMember.City;
             txtCountry.Text = CurrentMember.Country;
             txtPassword.Text = CurrentMember.Password;
+        }
+
+        private void frmUser_Load(object sender, EventArgs e)
+        {
+            load();   
         }
 
         private void btnShowPass_Click(object sender, EventArgs e)
@@ -48,6 +53,19 @@ namespace Asm1
             this.Hide();
             form.ShowDialog();
             this.Close();
+        }
+
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            Form formChange = new frmCreateForm()
+            {
+                Member = this.CurrentMember,
+                MemberRepository = this.MemberRepository,
+            };
+            if (formChange.ShowDialog() == DialogResult.OK)
+            {
+                load();
+            }
         }
     }
 }

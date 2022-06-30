@@ -71,7 +71,33 @@ namespace Asm1
             };
             form.ShowDialog();
             Task4_Load(sender, e);
+        }
 
+        private void txtSearchByID_KeyPress(object sender, KeyPressEventArgs e)
+                {
+                    if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+                    {
+                        e.Handled = true;
+                    }
+                }
+
+        private void btnSearchByID_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            int ID = int.Parse(txtSearchByID.Text);
+            Member mem = fun.GetMemberById(ID);
+            dataGridView1.Rows.Add(mem.MemberId, mem.Email, mem.CompanyName, mem.City, mem.Country, mem.Password);
+        }
+
+        private void btnSearchByEmail_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Clear();
+            String email = txtSearchByEmail.Text;
+            List<Member> list = fun.GetMembersByEmail(email);
+            foreach (Member m in list)
+            {
+                dataGridView1.Rows.Add(m.MemberId, m.Email, m.CompanyName, m.City, m.Country, m.Password);
+            }
         }
     }
 }
