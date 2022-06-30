@@ -1,21 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj": {}
+    "D:\\Hoc\\PRN211\\ASM1\\1\\Asm1\\Asm1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj": {
+    "D:\\Hoc\\PRN211\\ASM1\\1\\Asm1\\Asm1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj",
+        "projectUniqueName": "D:\\Hoc\\PRN211\\ASM1\\1\\Asm1\\Asm1.csproj",
         "projectName": "Asm1",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\Asm1.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\Asm1\\obj\\",
+        "projectPath": "D:\\Hoc\\PRN211\\ASM1\\1\\Asm1\\Asm1.csproj",
+        "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc\\PRN211\\ASM1\\1\\Asm1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"
@@ -28,8 +35,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj"
+              "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -61,22 +68,29 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\obj\\",
+        "projectPath": "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -115,22 +129,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj": {
+    "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\acern\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\DataAccess\\obj\\",
+        "projectPath": "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\Hoc\\PRN211\\ASM1\\1\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acern\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -143,8 +164,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\acern\\source\\repos\\asm\\main_asm1\\asm1\\BusinessLayer\\BusinessLayer.csproj"
+              "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\Hoc\\PRN211\\ASM1\\1\\BusinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -187,7 +208,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
