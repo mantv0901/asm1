@@ -17,6 +17,7 @@ namespace Asm1
         public Task4()
         {
             InitializeComponent();
+            textBox1.ReadOnly = true;   
         }
         IMemberRepository fun= new MemberRepository();
         private void Task4_Load(object sender, EventArgs e)
@@ -65,7 +66,7 @@ namespace Asm1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form form = new frmCreateForm()
+            Form form = new frmCreateForm(null)
             {
                 MemberRepository = fun
             };
@@ -84,7 +85,16 @@ namespace Asm1
         private void btnSearchByID_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
-            int ID = int.Parse(txtSearchByID.Text);
+            int ID;
+            try
+            {
+                ID = int.Parse(txtSearchByID.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Enter Number First!");
+                return;
+            }
             Member mem = fun.GetMemberById(ID);
             dataGridView1.Rows.Add(mem.MemberId, mem.Email, mem.CompanyName, mem.City, mem.Country, mem.Password);
         }
@@ -98,6 +108,27 @@ namespace Asm1
             {
                 dataGridView1.Rows.Add(m.MemberId, m.Email, m.CompanyName, m.City, m.Country, m.Password);
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int index;
+            try
+            {
+                 index = int.Parse(textBox1.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Select Columns First!");
+                return;
+            }
+            fun.DeleteMember(index);
+            Task4_Load(sender, e);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Task4_Load(sender, e);
         }
     }
 }

@@ -15,24 +15,41 @@ namespace Asm1
 {
     public partial class frmCreateForm : Form
     {
-        public frmCreateForm()
+        public frmCreateForm(Member mem)
         {
             InitializeComponent();
+            tbMemberID.ReadOnly = true;
+            Member = mem;
+            if (mem != null)
+            {
+                tbCity.Text = mem.City;
+                tbCountry.Text = mem.Country;
+                tbCompanyName.Text = mem.CompanyName;
+                tbEmail.Text = mem.Email;
+                tbPassword.Text = mem.Password;
+            }
         }
 
         public IMemberRepository MemberRepository { get; set; }
         public Member Member { get; set; }
         private void btSave_Click(object sender, EventArgs e)
         {
-                var member = new Member
-                {
-                    Email = tbEmail.Text,
-                    Password = tbPassword.Text,
-                    City = tbCity.Text,
-                    CompanyName = tbCompanyName.Text,
-                    Country = tbCountry.Text,
-                };
-                bool check = MemberRepository.CreateMember(member);
+            Member mem = MemberRepository.GetMembersByEmail(tbEmail.Text).FirstOrDefault();
+            if (mem != null)
+            {
+                MessageBox.Show("Duplicated Email");
+                return;
+            }
+            var member = new Member
+            {
+                Email = tbEmail.Text,
+                Password = tbPassword.Text,
+                City = tbCity.Text,
+                CompanyName = tbCompanyName.Text,
+                Country = tbCountry.Text,
+
+            };
+            bool check = MemberRepository.CreateMember(member);
             if (check)
             {
                 MessageBox.Show("Create Succes!");

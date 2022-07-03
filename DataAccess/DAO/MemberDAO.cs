@@ -38,8 +38,8 @@ namespace DataAccess.DAO
         }
         public  bool Create(Member member)
         {
-            String sql = "INSERT INTO Member(Email,Password,CompanyName,City,Country)" +
-                " VALUES(@Email,@Password,@CompanyName,@City,@Country)";
+            String sql = "INSERT INTO Member(Email,Password,CompanyName,City,Country,[Status])" +
+                " VALUES(@Email,@Password,@CompanyName,@City,@Country,1)";
             bool check = false;
             using (SqlConnection connection = new SqlConnection(GetConnectionString()))
             {
@@ -302,7 +302,7 @@ namespace DataAccess.DAO
         public List<Member> GetAllMember()
         {
             List<Member> members = new List<Member>();
-            String sql = "select * from Member";
+            String sql = "select * from Member where [status]=1";
             using (SqlConnection connection = new SqlConnection(GetConnectionString()))
             {
                 SqlCommand command = new SqlCommand(sql, connection);

@@ -30,6 +30,7 @@ namespace Asm1
             txtCity.Text = CurrentMember.City;
             txtCountry.Text = CurrentMember.Country;
             txtPassword.Text = CurrentMember.Password;
+            txtCompany.Text = CurrentMember.CompanyName;
         }
 
         private void frmUser_Load(object sender, EventArgs e)
@@ -57,15 +58,14 @@ namespace Asm1
 
         private void btnChange_Click(object sender, EventArgs e)
         {
-            Form formChange = new frmCreateForm()
-            {
-                Member = this.CurrentMember,
-                MemberRepository = this.MemberRepository,
-            };
-            if (formChange.ShowDialog() == DialogResult.OK)
-            {
-                load();
-            }
+            CurrentMember.Email = txtEmail.Text;
+            CurrentMember.City= txtCity.Text ;
+            CurrentMember.Country =txtCountry.Text ;
+            CurrentMember.Password=  txtPassword.Text;
+            CurrentMember.CompanyName= txtCompany.Text ;
+            MemberRepository.UpdateMember(CurrentMember);
+            load();
+            MessageBox.Show("Update Success");
         }
     }
 }
